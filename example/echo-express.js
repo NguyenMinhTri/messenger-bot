@@ -5,9 +5,9 @@ const bodyParser = require('body-parser')
 const Bot = require('../')
 
 let bot = new Bot({
-  token: 'PAGE_TOKEN',
-  verify: 'VERIFY_TOKEN',
-  app_secret: 'APP_SECRET'
+  token: 'EAACn86pGAioBAKK62KG7Mvs7fBdZA80YZBZCR4T18w3b3CaB1dCcMlR6Btnc0TBJnck3mNRWUnJfarrKM5RxA2F8pLMV2VoiF2oRSd6smbvQvjrWn32Bqc4l9m6Htb79sqEslxNFxXyXFiyWQSPKHziWXKI860vXhkxDDcc6lUf3CdAD7QO',
+  verify: 'EAACn86pGAioBAKK62KG7Mvs7fBdZA80YZBZCR4T18w3b3CaB1dCcMlR6Btnc0TBJnck3mNRWUnJfarrKM5RxA2F8pLMV2VoiF2oRSd6smbvQvjrWn32Bqc4l9m6Htb79sqEslxNFxXyXFiyWQSPKHziWXKI860vXhkxDDcc6lUf3CdAD7QO',
+  app_secret: 'e4bb9e8c052fd8008d6d3b3d1ac7c9b9'
 })
 
 bot.on('error', (err) => {
